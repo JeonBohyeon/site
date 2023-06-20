@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>상세페이지</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+    <style>
+        body{
+            background-image: url(https://i.postimg.cc/m2WR53Cv/Kakao-Talk-20230618-230756115.jpg);
+            background-size: cover;
+        }
+       .login{
+        width: 100%;
+        height: 41px;
+        background-color: #b7bddc;
+       }
+
+       .login-text{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+        text-align: right;
+        margin-right: 53px;
+        padding-top: 6px;
+        color: #858585;
+       }
+
+       .navigation{
+        width: 100%;
+        height: 152px;
+        display: inline;
+       }
+
+       .navi-pic{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 18px 300px 18px 184px;
+        border-bottom: 1px solid #858585;
+       }
+
+       .navi-text{
+        font-family: 'Roboto', sans-serif;
+        color:#1d1d1d;
+        font-size: 24px;
+        font-weight: 700;
+        display: flex;
+        flex-direction: row;
+       }
+
+       li{
+        list-style: none;
+        display: flex;
+        margin-left: 100px;
+       }
+
+       .상세{
+        margin: 82px 184px 82px 184px;
+        padding-left: auto;
+        padding-right: auto;
+        padding-bottom: 82px;
+        display: flex;
+        border-bottom: 1px solid #858585;
+        
+       }
+
+       .상세-pic{
+        width: 527px;
+        height: 668px;
+        background-image: url(https://i.postimg.cc/t48H4ThQ/Kakao-Talk-20230620-151633567-07.jpg);
+        background-size: cover;
+        background-position: center;
+        border: 1px solid #5c5c5c;
+        border-radius: 8px;
+        -webkit-filter: drop-shadow(4px 4px 3px #5c5c5c);
+        margin-right: 100px;
+        margin-left: 200px;
+        display: inline-block;
+       }
+
+        .상세-text{
+            display: inline-block;
+            margin: auto auto;
+        }
+
+        h1{
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 700;
+            font-size: 24px;
+            color: #c5aaf9;
+            margin-bottom: 16px;
+        }
+
+        h2{
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 900;
+            font-size: 24px;
+            color: #4c5bac;
+            margin-bottom: 16px;
+        }
+
+        h3{
+            font-family: 'Roboto', sans-serif;
+            font-weight: 700;
+            font-size: 20x;
+            color: #f393da;
+            margin-bottom: 16px; 
+        }
+
+        .상세-text p{
+            font-family: 'Noto Sans KR', sans-serif;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 36px;
+            color: #858585;
+            margin-bottom: 24px;
+        }
+
+        h4{
+            text-align: center;
+            font-family: 'Noto Sans KR', sans-serif;
+            font-weight: 700;
+            font-size: 24px;
+            color: #1d1d1d;  
+        }
+
+        .세부{
+            width: 1239px;
+            height: 1094px;
+            background-image: url(https://i.postimg.cc/wBBhqbfy/2023-06-21-000402.png);
+            background-size: cover;
+            border-radius: 8px;
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+        }
+
+        .더보기{
+            width: 738px;
+            height: 104px;
+            background-color: #949dcd;
+            border: 6px solid #5c5c5c;
+            border-radius: 20px;
+            -webkit-filter: drop-shadow(4px 4px 3px #5c5c5c);
+            display: flex;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 930px;
+        }
+
+        .더보기 p{
+            font-family: 'Noto Sans KR', sans-serif;
+            font-weight: 700;
+            font-size: 24px;
+            color: white;
+            -webkit-filter: drop-shadow(4px 4px 3px #5c5c5c);
+            margin-top: auto;
+            margin-bottom: auto;
+            margin-left: 192px;
+            margin-right: 132px;
+        }
+
+        .세부img{
+            display: inline-block;
+            margin-top: auto;
+            margin-bottom: auto;
+            margin-right: 192px;
+        }
+
+        .하단바{
+        text-align: center;
+        width: 1720px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 68px;
+        margin-bottom: 136px;
+        border-top: 1px solid #858585;
+        border-bottom: 1px solid #858585;
+        padding: 113px 20px 113px 20px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        color: #333333;
+        
+       }
+
+       .contents{
+        width: 356px;
+        height: 157px;
+        line-height: 46px;
+        text-align: center;
+        display: inline-block;
+        flex-direction: row;
+       }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="login"><div class="login-text">Login</div></div>
+    <div class="navigation">
+        <div class="navi-pic"><img src="https://i.postimg.cc/mkcPhpc8/image.png" width="250px" height="116px">
+            <ul class="navi-text">
+                <li>Category</li> 
+                <li>New</li>
+                <li>Best</li>
+                <li>About</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="상세">
+        <div class="상세-pic"></div>
+        <div class="상세-text">
+            <h1>‘The Lonely Moon’ Series</h1>
+            <h2>The little Moon</h2>
+            <h3>Shinwoo</h3>
+            <p>우주 미아가 된 유령 곰이<br>토끼들이 달에 불시착 했어요.<br>이방인처럼 보이지 않기 위해 토끼모양<br>우주헬멧을 썼어요.<br>당황스러운 기색이 그대로 표정에 드러나지만,<br>어느새 이 행성의 색들에 빠져들고 말았어요.
+            <br>
+            <br>
+            이 행성은 언제든 새로운 색을 환영해요!</p>
+            <h4>15,000원</h4>
+        </div>
+    </div>
+
+    <div class="세부">
+        <div class="더보기"><p>상세정보 더보기</p><img class="세부img" src="https://i.postimg.cc/wjqdDdn3/icon-chevron-down-arrow-1.png" width="48px" height="25px"></div>
+    </div>
+
+    <div class="하단바">
+        <div class="contents"><b>AZURA</b><br>Spring Fantasy<br>Wardrobe<br>Animal Fighting Match<br>Natural Elements</div>
+        <div class="contents"><b>Skullpanda</b><br>Everyday Wonderland<br>Laid Back Tomorrow<br>The Mare of Animals<br>City of Night</div>
+        <div class="contents"><b>Shinwoo</b><br>Birthday Alone<br>The Lovely Moon<br>The Secret Bear<br>Love or Death</div>
+        <div class="contents"><b>Pino Jelly</b><br>Taste & Personality<br>How Are You Feeling Today<br>Smoothie Party<br>Honey Paradise</div>
+    </div>
+    
+</body>
+</html>

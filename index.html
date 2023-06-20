@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://webfontworld.github.io/PyeongChang/PyeongChangPeace.css">
+    <link href="https://webfontworld.github.io/PyeongChang/PyeongChangPeace.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <title>index</title>
+
+    <style>
+        @font-face{
+            font-family: 'PyeongChangPeace';
+            font-weight: 300;
+            font-style: normal;
+            src: url('https://cdn.jsdelivr.net/gh/webfontworld/PyeongChang/PyeongChangPeace-Light.eot');
+            src: url('https://cdn.jsdelivr.net/gh/webfontworld/PyeongChang/PyeongChangPeace-Light.eot?#iefix') format('embedded-opentype'),
+            url('https://cdn.jsdelivr.net/gh/webfontworld/PyeongChang/PyeongChangPeace-Light.woff2') format('woff2'),
+            url('https://cdn.jsdelivr.net/gh/webfontworld/PyeongChang/PyeongChangPeace-Light.woff') format('woff'),
+            url('https://cdn.jsdelivr.net/gh/webfontworld/PyeongChang/PyeongChangPeace-Light.ttf') format("truetype");
+            font-display: swap;
+        }
+
+        body{
+            background-image: url(https://i.postimg.cc/m2WR53Cv/Kakao-Talk-20230618-230756115.jpg);
+            background-size: cover;
+        }
+       .login{
+        width: 100%;
+        height: 41px;
+        background-color: #b7bddc;
+       }
+
+       .login-text{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+        text-align: right;
+        margin-right: 53px;
+        padding-top: 6px;
+        color: #858585;
+       }
+
+       .navigation{
+        width: 100%;
+        height: 152px;
+        display: inline;
+       }
+
+       .navi-pic{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 18px 184px 18px 184px;
+        border-bottom: 1px solid #858585;
+       }
+
+       .navi-text{
+        font-family: 'Roboto', sans-serif;
+        color:#1d1d1d;
+        font-size: 24px;
+        font-weight: 700;
+        display: flex;
+        flex-direction: row;
+       }
+
+       li{
+        list-style: none;
+        display: flex;
+        margin-left: 100px;
+       }
+
+       .june{
+        background: linear-gradient(to bottom, #acf9c1, #eefef3);
+        color: transparent;
+        font-family: 'PyeongChangPeace';
+        font-weight: 700;
+        font-size: 48px;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-stroke: 2px #1d1d1d;
+       }
+
+       .main{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid #858585;
+        width: 1760px;
+        height: 831px;
+        margin-left: auto;
+        margin-right: auto;
+       }
+
+       .text{
+        font-family:'PyeongChangPeace';
+        font-weight: 300;
+        font-size: 24px;
+        color: #1d1d1d;
+        text-align: center;
+        line-height: 60px;
+        letter-spacing: 0px;
+        float: left;
+        margin-right: 204px;
+       }
+
+       .text div{
+        display: inline;
+        font-family: 'PyeongChangPeace';
+        font-weight: 700;
+        color: #4c5bac;
+       }
+
+       #name{
+        color:#f393da;
+       }
+
+       .추천{
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 100px;
+       }
+
+       .추천1{
+        text-align: left;
+        line-height: 30px;
+        display: inline-block;
+        flex-direction: row;
+        margin-right: 140px;
+       }
+       
+       .추천2{
+        text-align: left;
+        line-height: 30px;
+        display: inline-block;
+        flex-direction: row;
+       }
+
+       .추천2:hover{
+        border-radius: 8px;
+        background-color: #d6d6d6;
+       }
+
+       .추천2:active{
+        border-radius: 8px;
+        background-color: #fad4f0;
+       }
+
+       .추천-img{
+        border-radius: 8px;
+        border: 1px solid #5c5c5c;
+        -webkit-filter: drop-shadow(4px 4px 3px #5c5c5c);
+       }
+
+       h1{
+        font-family: 'Rodoto', sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        color: #858585;
+       }
+
+       h2{
+        font-family: 'Rodoto', sans-serif;
+        font-weight: 500;
+        font-size: 24px;
+        color: #4c5bac;
+       }
+
+       .하단바{
+        text-align: center;
+        width: 1720px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 136px;
+        border-top: 1px solid #858585;
+        border-bottom: 1px solid #858585;
+        padding: 113px 20px 113px 20px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        color: #333333;
+        
+       }
+
+       .contents{
+        width: 356px;
+        height: 157px;
+        line-height: 46px;
+        text-align: center;
+        display: inline-block;
+        flex-direction: row;
+       }
+
+
+    </style>
+</head>
+<body>
+    <div class="login"><div class="login-text">Login</div></div>
+    <div class="navigation">
+        <div class="navi-pic"><img src="https://i.postimg.cc/mkcPhpc8/image.png" width="250px" height="116px">
+            <ul class="navi-text">
+                <li>Category</li> 
+                <li>New</li>
+                <li>Best</li>
+                <li>About</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="text">
+            <h1 class="june">6월의 작가</h1>
+            <p><div>Shinwoo</div> 작가는 어딘가 오싹하지만<br>귀여운 스토리와 독창적인 세계관을 구축해 나가며<br>세계관을 맛볼 수 있는 사진, 영상, 회화 등<br>다양한 매체를 통해 아트토이를 작업하는 작가입니다.</p>
+            <p><div id="name">Baby Ghost Bear</div>는<br><div>Shinwoo</div> 작가의 세계관을 대표하는 캐릭터 중 하나로,<br>어느 날 상처받아 죽음을 맞이한 아기곰의 영혼이<br>유령으로 변하며 자신의 원수를 찾아 복수를 하러 떠나는<br>스토리를 가지고 있습니다.</p>
+        </div>
+        <div class="img"><img src="https://i.postimg.cc/k4FZ0607/image-removebg-preview.png" width="430px" height="715px"></div>
+    </div>
+
+    <div class="추천">
+        <div class="추천1">
+            <img class="추천-img" src="https://i.postimg.cc/QtgPxwHr/Kakao-Talk-20230617-214000649-05.jpg" width="550px" height="328px">
+            <h1>Shinwoo</h1>
+            <h2>The Lonely Moon Series</h2>
+        </div>
+        
+        <a href="시리즈페이지.html">
+        <div class="추천2">
+            <img class="추천-img" src="https://i.postimg.cc/cJfTQzwk/Kakao-Talk-20230617-214000649-03.png" width="550px" height="328px">
+            <h1>Shinwoo</h1>
+            <h2>Dreamy Land Series</h2>
+        </div>
+        </a>
+    </div>
+
+    <div class="하단바">
+        <div class="contents"><b>AZURA</b><br>Spring Fantasy<br>Wardrobe<br>Animal Fighting Match<br>Natural Elements</div>
+        <div class="contents"><b>Skullpanda</b><br>Everyday Wonderland<br>Laid Back Tomorrow<br>The Mare of Animals<br>City of Night</div>
+        <div class="contents"><b>Shinwoo</b><br>Birthday Alone<br>The Lovely Moon<br>The Secret Bear<br>Love or Death</div>
+        <div class="contents"><b>Pino Jelly</b><br>Taste & Personality<br>How Are You Feeling Today<br>Smoothie Party<br>Honey Paradise</div>
+    </div>
+    
+</body>
+</html>
